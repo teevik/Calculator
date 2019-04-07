@@ -1,4 +1,7 @@
-export const font = `"Montserrat", sans-serif`
+export const fonts = {
+  normal: `"Montserrat", sans-serif`,
+  monospace: "monospace"
+}
 
 export const colors = {
   primary: "#00bfa5",

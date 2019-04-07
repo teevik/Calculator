@@ -1,6 +1,6 @@
 import { css, Global } from "@emotion/core"
 import React from "react"
-import { font } from "../styling/constants"
+import { fonts } from "../styling/constants"
 import { Calculator } from "./Calculator"
 
 export const App = () => {
@@ -54,7 +54,7 @@ const globalStyles = css`
 
   html,
   body {
-    font-family: ${font};
+    font-family: ${fonts.normal};
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
